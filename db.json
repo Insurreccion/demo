@@ -1,12 +1,45 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "rooms": [
+    { 
+      "id": 1, 
+      "categoria": "estandar", 
+      "cant": 50 },
+    { 
+      "id": 2, 
+      "categoria": "superior", 
+      "cant": 30 },
+    { 
+      "id": 3, 
+      "categoria": "premium", 
+      "cant": 20 }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "skills": [
+    {
+     "id": 1, 
+     "wifi": true,
+     "tvcable": true,
+     "baño":"Ducha",
+     "balcon": false,
+     "aa":false,
+     "telefono": true,
+     "roomId": 1 
+    },
+    { 
+     "id": 2, 
+     "wifi": true,
+     "tvcable": true,
+     "baño":"bañera",
+     "balcon": "Al patio",
+     "aa":false,
+     "Ventilador", true,
+     "telefono": true, 
+     "roomId": 2 
+    },
+    { 
+     "id": 3, 
+     "body": "some comment", 
+     "roomId": 3 
+    }
   ],
   "profile": {
     "name": "typicode"
